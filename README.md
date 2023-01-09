@@ -24,7 +24,7 @@ First you will need to clone the repository:
   ```
 ***
 
-You should now have all files copied to your root directory (inside /library/ in mine). 
+You should now have all files copied to your root directory (inside /library/ in my case). 
   1) Virtual Environment – in the terminal (if you have already installed python virtual environment, if not run "pip install virtualenv" first) run the following commands to create a virtual environment:
 ```
 python -m venv .venv
