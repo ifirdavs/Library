@@ -37,3 +37,9 @@ venv\Scripts\activate
 # mac/linux
 source venv/bin/activate
 ```
+You will know your virtual environment is active when your terminal displays the following:
+```
+(.venv) path\to\project\library>
+```
+  2) Packages and requirements - Our project will rely on django and python-decouple Python packages (requirements) to function. I have already created a requirements.txt file. Check out requirements.txt
+
