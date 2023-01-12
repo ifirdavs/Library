@@ -73,11 +73,16 @@ Now click on that link with Ctrl or Command to go to our local server website. T
 ```
 python manage.py createsuperuser
 ```
-– for creating another superuser
+– for creating another superuser.
 
 ***
 
 In order to stop the local server just go to the terminal and press Crtl+C or Command+C.
 Enjoy!!!
+
+
+> Note: There's a comment in admin.py next to the line of code which fixes the following problem:
+
+![GET BOOKS](https://user-images.githubusercontent.com/101515354/212142762-7986d7fd-2980-4591-aabd-cfd18bd3ac2f.png)
 
 
