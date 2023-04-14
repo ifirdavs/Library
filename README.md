@@ -17,10 +17,10 @@ First you will need to clone the repository:
   3) You can now clone, using the command 'git clone' or using GitHub CLI (or alternatives as Git Bash):
   ```
   # option 1 - HTTPS
-  git clone https://github.com/fismoilov20/library.git
+  git clone https://github.com/fismoilov20/library.git .
   
   # option 2 - Github CLI
-  gh repo clone fismoilov20/library
+  gh repo clone fismoilov20/library .
   ```
 ***
 
@@ -29,6 +29,15 @@ You should now have all files copied to your root directory (inside /library/ in
 ```
 python -m venv .venv
 ```
+
+Then copy `.env.example` as `.env`:
+```
+# Windows
+copy .env.example .env
+# Linux, mac
+cp .env.example .env
+```
+
 Now activate the virtual environment with the following command:
 ```
 # Windows
@@ -41,6 +50,8 @@ You will know your virtual environment is active when your terminal displays the
 ```
 (.venv) path\to\project\library>
 ```
+## 
+
 2) Packages and requirements - Our project will rely on django and python-decouple Python packages (requirements) to function. I have already created a requirements.txt file. So you can either run this command:
 ```
 pip install -r requirements.txt
